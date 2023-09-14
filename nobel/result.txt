@@ -1,0 +1,69 @@
+# 年龄最大的十位 在世 诺贝尔物理学奖获得者.
+    Year                   Laureate[A]            Country[B]    age
+1   1957      Chen-Ning Yang (b. 1922)     Republic of China  101.0
+2   1973           Leo Esaki (b. 1925)                 Japan   98.0
+3   1957       Tsung-Dao Lee (b. 1926)     Republic of China   97.0
+4   2000     Herbert Kroemer (b. 1928)               Germany   95.0
+5   1973        Ivar Giaever (b. 1929)  United States Norway   94.0
+6   2013         Peter Higgs (b. 1929)        United Kingdom   94.0
+7   1990  Jerome I. Friedman (b. 1930)         United States   93.0
+8   2009     George E. Smith (b. 1930)         United States   93.0
+9   1972    Leon Neil Cooper (b. 1930)         United States   93.0
+10  2021    Klaus Hasselmann (b. 1931)               Germany   92.0
+------------------------------
+# 所有人中, 年龄最大的十位.
+     Year                         Laureate[A]  ...    age  expire
+73   1957            Chen-Ning Yang (b. 1922)  ...  101.0   False
+88   1964     Charles Hard Townes (1915–2015)  ...  100.0    True
+93   1967     Hans Albrecht Bethe (1906–2005)  ...   99.0    True
+139  1988        Jack Steinberger (1921–2020)  ...   99.0    True
+213  2018           Arthur Ashkin (1922–2020)  ...   98.0    True
+102  1973                 Leo Esaki (b. 1925)  ...   98.0   False
+123  1981    Nicolaas Bloembergen (1920–2017)  ...   97.0    True
+112  1977  Philip Warren Anderson (1923–2020)  ...   97.0    True
+72   1957             Tsung-Dao Lee (b. 1926)  ...   97.0   False
+106  1974           Antony Hewish (1924–2021)  ...   97.0    True
+
+[10 rows x 5 columns]
+# 诺贝尔物理学奖获得者国籍分布.
+Country
+United States                  99
+United Kingdom                 28
+France                         15
+Japan                          12
+West Germany                   11
+Netherlands                    10
+Germany                         8
+German Empire                   8
+Soviet Union                    7
+Canada                          6
+Switzerland                     6
+Russia                          5
+Austria                         4
+Republic of China               4
+Sweden                          4
+Italy                           4
+Weimar Republic                 4
+Denmark                         3
+Kingdom of Italy                2
+Not awarded                     2
+Poland                          2
+India                           2
+Hungary                         2
+Austria-Hungary                 1
+Belgium                         1
+Weimar Republic Switzerland     1
+Pakistan                        1
+Slovenia                        1
+Norway                          1
+Ireland                         1
+Hong Kong                       1
+Australia                       1
+Name: Laureate[A], dtype: int64
+------------------------------
+# 中国获奖者
+     Year                       Laureate[A]                       Country[B]
+72   1957           Tsung-Dao Lee (b. 1926)                Republic of China
+73   1957          Chen-Ning Yang (b. 1922)                Republic of China
+110  1976  Samuel Chao Chung Ting (b. 1936)  Republic of China United States
+162  1998        Daniel Chee Tsui (b. 1939)  Republic of China United States
